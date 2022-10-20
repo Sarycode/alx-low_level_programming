@@ -14,9 +14,9 @@ void print_to_98(int n)
 			printf("%d\n", n);
 			if (n != 98)
 			{
-				printf(", ")
+				printf(", ");
 			}
-			n++
+			n++;
 		}
 	else if (n > 98)
 	{
@@ -27,12 +27,12 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
-			n--
+			n--;
 		}
 	}
 	else
 	{
 		printf("98");
 	}
-	prinf("\n");
+	printf("\n");
 }
